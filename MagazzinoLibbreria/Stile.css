@@ -1,0 +1,77 @@
+﻿body
+{
+    background-color:lavenderblush;
+}
+header{
+    display:flex;
+
+}
+a:hover, a:active {
+    
+    text-decoration: none;
+}
+a:hover,a:active{
+    background-color:bisque;
+    color:black;
+  
+}
+
+a:link{
+    color:crimson;
+}
+/*table{
+    color:azure;
+    background-color:black;
+}
+h1{
+    font-family:'Comic Sans MS';
+    font-size:xx-large;
+}
+#riga2 {
+    color: black;
+    background-color: azure;
+}
+#testa {
+*/
+tr:nth-child(2n+1) {
+    color: azure;
+    background-color: black;
+    
+
+}
+tr:hover {
+    background-color:crimson;
+   
+}
+table {
+    color: black;
+    background-color: azure;
+}
+th {
+    color: black;
+    background-color: azure;
+}
+h1 {
+    font-family: 'Comic Sans MS';
+    font-size: xx-large;
+}
+form {
+    color: azure;
+    background-color: black;
+    width:200px;
+   border-radius:6px;
+    padding:20px;
+
+}
+input[type="submit"] {
+    color: black;
+    background-color: azure;
+    font-family:'Comic Sans MS';
+   
+}
+nav{
+    justify-content:center;
+}
+a{
+    justify-content:center;
+}
